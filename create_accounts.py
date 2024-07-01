@@ -7,14 +7,14 @@ from selenium.webdriver.support import expected_conditions as ec
 import random
 import time
 
-PASSWORD = "Ahah1212"
+PASSWORD = "RandPass13$"
 
 times = int(input("How many outlook emails you want to create: "))
 print("[+] creating .......")
 
 
 def create_email():
-    basic = "sonacc1wpy"
+    basic = "son1wpy"
     for _ in range(4):
         num = random.randint(1, 100)
         basic += str(num)
